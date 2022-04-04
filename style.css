@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    color: rgb(32, 32, 32); /* words color */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    padding: 2rem 9rem;
+    background: linear-gradient(#dfe0db,#dfe0db 50%,#fcebe1 50%,#fcebe1) ;
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: rgba(250, 16, 16, 0.896);
+    margin-bottom: 1rem;
+}
+p{
+    line-height: 1.0;
+}
+p.class{
+    color:blue;
+}
+section {
+    margin-top: 2rem;
+}
+li + li{
+    margin-top: 0.5rem;
+}
+a{
+    text-decoration: none; /* underline will be not shown */
+    color: blue;
+    
+}
+ul{
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+ul.u {
+    list-style-type: circle
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    border-radius: 40%;
+    width: 13rem;
+    height: 17rem;
+}
+.profile p{
+    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.contact ul{
+    margin-top: -2rem;
+}
+.contact li{
+    text-align:left ;
+    padding: 1rem;
+    color:rgb(27, 26, 26);
+    border-bottom: 1px solid #888;
+    font-size: 0.9rem;
+}
+.skills > ul{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+
+}
+.event + .event{
+    padding-top: 1rem;
+}
+.event{
+    display: grid;   /* formted in exmaple in sprts and sub    */
+    grid-template-columns: 5ch 1fr;
+
+}
+.content{   /* side lines for some topics  */
+    border-left: 1px solid rgb(136, 136, 136);
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.content > h3 + p{         /* sports and singing to make space    */
+    margin-bottom: 1rem;
+
+}
+.resume{
+    /* display: grid; 
+    grid-template-columns: 40% 1fr;*/
+    grid-gap: 4rem;
+    background-color: #ffc0cb;
+    padding: 3rem;
+}
